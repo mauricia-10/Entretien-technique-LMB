@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.header {
+    background-color: #5472ae;
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: 10%;
+    padding-top: .35rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.list-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ INDEX.PHP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.list-title {
+    font-size: 1.2rem;
+    background-color: white;
+    height: 3rem;
+    padding-top: .7rem;
+    padding-left: 1rem;
+}
+
+.list-search-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.list-search-content {
+    width: 50%;
+}
+
+.list-label {
+    font-weight: bold;
+}
+
+.list-search-bar {
+    width: 100%;
+    margin-top: .4rem;
+    margin-bottom: .5rem;
+}
+
+.list-btn-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-search {
+    background-color: orange;
+    border-radius: .5rem;
+    height: 2rem;
+    width: 7rem;
+    color: white;
+}
+
+.login-icon {
+    height: 1.5rem;
+    padding-left: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: .001rem solid lightslategray;
+}
+
+thead {
+    border: .001rem solid lightslategray;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: whitesmoke;
+}
+
+td, th {
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: black;
+}
+
+.table-btn {
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 40px;
+    background-color: #5472ae;
+    font-size: .7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.search-icon {
+    padding-right: .2rem;
+    color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SHOW.PHP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.infos-contact {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.show-name {
+    display: flex;
+}
+
+.show-firstname, .show-lastname {
+    font-size: 1.2rem;
+}
+
+.show-lastname {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.edit-btn {
+    display: inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: .5rem;
+    background-color: orange;
+    font-size: .7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.setting-icon {
+    padding-right: .5rem;
+}
+
+.infos {
+    background-color: white;
+    height: fit-content;
+    margin-top: 2rem;
+}
+
+.infos-title {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.table-show-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    column-gap: 2rem;
+}
+
+.label-show, .input-show {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-show {
+    text-align: end;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ EDIT.PHP ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.save-btn {
+    background-color: green;
+    color: white;
+    margin-left: .5rem;
+    height: 1.8rem;
+    width: 6rem;
+    border-radius: 5px;
+}
+
+.cancel-btn {
+    width: 6rem;
+    height: 1.8rem;
+    border-radius: 5px;
+}
+
+.edit-btns {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+}
