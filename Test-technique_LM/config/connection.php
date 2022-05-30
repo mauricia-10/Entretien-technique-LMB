@@ -3,8 +3,8 @@
 $host = 'localhost';
 $port = "3306";
 $database = 'lmb';
-$user = 'mauly';
-$password ='nikkyetkate';
+$user = '****';
+$password ='****';
 
 try {
 	//On test la connexion à la base de donnée
